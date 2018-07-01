@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">3_Quiz App</string>
+    <string name="edit_text_hint">Type here</string>
+    <string name="first_question">Who is Nigeria\'s first president</string>
+    <string name="second_question">Which of the following answers is true?</string>
+    <string name="second_question_option_one">Kunal is Asian</string>
+    <string name="second_question_option_two">Lyla is Asian</string>
+    <string name="question_three">Who is the current president of Nigeria?</string>
+    <string name="question_three_option_two">Tafawa Balewa</string>
+    <string name="question_three_option_one">Shehu Shagari</string>
+    <string name="question_three_option_three">Muhammadu Buhari</string>
+    <string name="question_three_option_four">Olusegun Obasanjo</string>
+
+</resources>

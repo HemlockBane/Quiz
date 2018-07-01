@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second_question"
+            android:textSize="40sp" />
+
+        <CheckBox
+            android:id="@+id/kunal_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="kunalIsChecked"
+            android:paddingStart="8dp"
+            android:text="@string/second_question_option_one"
+            android:textSize="26sp" />
+
+        <CheckBox
+            android:id="@+id/lyla_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="lylaIsChecked"
+            android:paddingStart="8dp"
+            android:text="@string/second_question_option_two"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="secondNextButton"
+        android:src="@drawable/ic_chevron_right_grey_900_24dp" />
+
+
+</RelativeLayout>
